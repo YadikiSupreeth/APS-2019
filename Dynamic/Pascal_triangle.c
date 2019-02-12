@@ -3,7 +3,7 @@
 void pascal(int m,int k)
 {
     int arr[100][100],limit;
-    for(int i=0;i<m;i++)
+    for(int i=0;i<m+1;i++)
     {
         if(i>k)
             limit=k;
@@ -21,7 +21,7 @@ void pascal(int m,int k)
             }
         }
     }
-    for(int i=0;i<m;i++)
+    for(int i=0;i<m+1;i++)
     {
         if(i>k)
             limit=k;
