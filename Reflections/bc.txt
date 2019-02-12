@@ -1,0 +1,20 @@
+Pascal_problem:
+In_2D_matrix
+    Its an DP problem were we store all the intermediate results
+    It is good if we have many many queries
+    But it occupy huge space in N is large
+
+Reccursion
+    It take longer time when compared to above one because same value will be calculated twice
+    It may lead to stack overflow at some cases
+    It is good if N is too small and If it is not a query problem
+
+In_1D_array
+    It is optimized version of 2D matrix as it reduces space
+    But does not support querie problems
+    Time is same in both the implementations
+    It is same like a Reccursion avoiding dual call
+
+So based on the type of problem constraints choose the best approperiate implementation 
+
+
