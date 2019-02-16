@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <string.h>
+#include<stdio.h>
+#include<string.h>
 void Longest_increasing_sequence(int arr[], int n)
 {
     int i = 0;
@@ -14,11 +14,8 @@ void Longest_increasing_sequence(int arr[], int n)
         {
             if (arr[i] >= arr[j])
             {
-                if (temp[j] + 1 == temp[i] + 1)
-                {
-
+                if (temp[j]  == temp[i] )
                     temp[i]++;
-                }
             }
             j++;
         }
